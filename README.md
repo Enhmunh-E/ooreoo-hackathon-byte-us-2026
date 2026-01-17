@@ -2,7 +2,7 @@
 
 A Next.js-based "Super App" prototype built for the 2026 Hackathon. This application mimics the experience of leading delivery platforms (like Snoonu/Uber Eats) with a focus on a seamless dark-mode UI and an integrated **AI Voice Assistant**.
 
-🔗 **Live Demo:** [https://ooreoo-hackathon-byte-us-2026.vercel.app/](https://ooreoo-hackathon-byte-us-2026.vercel.app/)
+🔗 **Live Demo:** [https://snoonu-hackathon-byte-us-2026.vercel.app/](https://snoonu-hackathon-byte-us-2026.vercel.app/)
 
 ## ✨ Key Features
 
