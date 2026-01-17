@@ -1,6 +1,37 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 📱 Byte Us - Super App Prototype
 
-## Getting Started
+A Next.js-based "Super App" prototype built for the 2026 Hackathon. This application mimics the experience of leading delivery platforms (like Snoonu/Uber Eats) with a focus on a seamless dark-mode UI and an integrated **AI Voice Assistant**.
+
+🔗 **Live Demo:** [https://ooreoo-hackathon-byte-us-2026.vercel.app/](https://ooreoo-hackathon-byte-us-2026.vercel.app/)
+
+## ✨ Key Features
+
+### 1. 🤖 AI Voice Assistant (Snoonu Bot)
+- **Interactive Mascot:** Clicking the mascot in the footer triggers a full-screen voice overlay.
+- **Speech-to-Text:** Users can speak their requests naturally using the Web Speech API.
+- **Text-to-Speech:** The assistant replies verbally, reading out recommendations and captions.
+- **Smart Recommendations:** Context-aware product suggestions (e.g., Musical instruments, Food) based on user queries.
+- **Visualizers:** Real-time animated sound waves when listening or speaking.
+
+### 2. 🛍️ Super App Interface
+- **Bento Grid Layout:** A responsive, visually hierarchical grid separating "Essentials" (Food, Grocery) from "Lifestyle" services (Laundry, Travel).
+- **Horizontal Scroll Sections:** "Popular Brands" and "Offers & Events" sections designed for touch/mobile interaction.
+- **Sticky Navigation:** A bottom navigation bar that remains accessible without overlapping content.
+
+### 3. 🛒 Dynamic Market Pages
+- **Product Routing:** Dynamic routing (`/market/[slug]`) to render individual product details.
+- **Data Driven:** Fetches product details (Images, Description, Price) from a local JSON dataset.
+- **Cart Interactions:** Functional quantity selectors and "Add to Cart" logic.
+
+## 🛠️ Tech Stack
+
+- **Framework:** [Next.js 14](https://nextjs.org/) (App Router)
+- **Styling:** [Tailwind CSS](https://tailwindcss.com/)
+- **Icons:** SVG & Custom Assets
+- **AI/Voice:** Native Web Speech API (`SpeechRecognition` & `speechSynthesis`)
+- **HTTP Client:** Axios (with Next.js API Proxy for CORS handling)
+
+## 🚀 Getting Started
 
 First, run the development server:
 
@@ -10,28 +41,3 @@ npm run dev
 yarn dev
 # or
 pnpm dev
-# or
-bun dev
-```
-
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
-
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
-
-## Learn More
-
-To learn more about Next.js, take a look at the following resources:
-
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
-
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-# ooreoo-hackathon-byte-us-2026
